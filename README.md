@@ -43,3 +43,15 @@ A Python script that checks filesystem usage and automatically deletes a target 
 
 3. Linux Environment  
    This script is intended to run on a Linux build agent or server.
+
+---
+
+## 5. Installation and Execution
+
+1. Navigate to the directory where `cleanup_disk_space.py` is located.
+
+2. Execute the script with dzdo and Python 3:
+
+```PowerShell
+dzdo python3 cleanup_disk_space.py
+```
