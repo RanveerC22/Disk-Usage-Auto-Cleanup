@@ -70,6 +70,7 @@ A Python script that checks filesystem usage and automatically deletes a target 
   - Prints **Disk Space AFTER Deletion**.
 - If usage is **70% or below**, no deletion is performed.
 
+[Back to Top](#disk-usage-auto-cleanup)
 ---
 
 ## 7. Limitations
