@@ -84,11 +84,7 @@ A Python script that checks filesystem usage and automatically deletes a target 
 ## 8. Output
 
 ### When Disk Space is Less Than 70%
-```PowerShell
-![Output when below 70%](images/below_70.png)
-```
+![Disk usage below 70%](images/below_70.png)
 
 ### When Disk Space is More Than 70%
-```PowerShell
-![Output when above 70%](images/above_70.png)
-```
+![Disk usage above 70%](images/above_70.png)
