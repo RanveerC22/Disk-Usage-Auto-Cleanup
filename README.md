@@ -83,10 +83,11 @@ A Python script that checks filesystem usage and automatically deletes a target 
 
 ## 8. Output
 
-- When Disk Space is Less Than 70%
+- **When Disk Space is Less Than 70%**
+  
   ![Disk usage below 70%](images/below_70.png)
 
-***
 
-- When Disk Space is More Than 70%
+- **When Disk Space is More Than 70%**
+  
   ![Disk usage above 70%](images/above_70.png)
