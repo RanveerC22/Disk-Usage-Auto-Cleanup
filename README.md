@@ -1,7 +1,7 @@
 # Disk-Usage-Auto-Cleanup
 
 ## 1. Navigation
-- [Intro](#2-intro)
+- [Reason for Creation](#2-reason-for-creation)
 - [Feature Overview](#3-feature-overview)
 - [Prerequisites](#4-prerequisites)
 - [Installation and Execution](#5-installation-and-execution)
@@ -11,7 +11,7 @@
 
 ---
 
-## 2. Intro
+## 2. Reason for Creation
 
 I created this script because I often faced **disk space issues** on my Linux build agents.  
 Every time the disk filled up, I had to **SSH into the agent manually**, search for unused folders, and delete them — which was **time-consuming and repetitive**.
