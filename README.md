@@ -69,3 +69,12 @@ A Python script that checks filesystem usage and automatically deletes a target 
   - Calls `get_filesystem_usage(filesystem)` again.
   - Prints **Disk Space AFTER Deletion**.
 - If usage is **70% or below**, no deletion is performed.
+
+---
+
+## 7. Limitations
+
+- The script supports **only one filesystem** and **one target directory** at a time.  
+- Multiple target directories cannot be cleaned in a single run.  
+- Deletion is permanent; ensure the `targetdirectory` is safe to remove.  
+- Designed specifically for Linux environments; may not work on other OS.
