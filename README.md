@@ -78,3 +78,17 @@ A Python script that checks filesystem usage and automatically deletes a target 
 - Multiple target directories cannot be cleaned in a single run.  
 - Deletion is permanent; ensure the `targetdirectory` is safe to remove.  
 - Designed specifically for Linux environments; may not work on other OS.
+
+---
+
+## 8. Output
+
+### When Disk Space is Less Than 70%
+```PowerShell
+![Output when below 70%](images/below_70.png)
+```
+
+### When Disk Space is More Than 70%
+```PowerShell
+![Output when above 70%](images/above_70.png)
+```
