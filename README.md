@@ -52,6 +52,6 @@ A Python script that checks filesystem usage and automatically deletes a target 
 
 2. Execute the script with dzdo and Python 3:
 
-```PowerShell
-dzdo python3 cleanup_disk_space.py
-```
+   ```PowerShell
+   dzdo python3 cleanup_disk_space.py
+   ```
