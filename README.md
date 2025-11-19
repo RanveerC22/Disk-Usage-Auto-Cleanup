@@ -55,3 +55,17 @@ A Python script that checks filesystem usage and automatically deletes a target 
    ```PowerShell
    dzdo python3 cleanup_disk_space.py
    ```
+---
+
+## 6. What It Does
+
+- Takes two variables:
+  - `filesystem` → filesystem path to check
+  - `targetdirectory` → directory to delete when usage is high
+- Calls `get_filesystem_usage(filesystem)` to check the current disk usage.
+- Prints **Disk Space BEFORE Deletion**.
+- If usage is **greater than 70%**:
+  - Deletes the folder inside `targetdirectory`.
+  - Calls `get_filesystem_usage(filesystem)` again.
+  - Prints **Disk Space AFTER Deletion**.
+- If usage is **70% or below**, no deletion is performed.
