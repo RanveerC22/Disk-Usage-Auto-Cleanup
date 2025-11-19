@@ -36,10 +36,9 @@ A Python script that checks filesystem usage and automatically deletes a target 
 ## 4. Prerequisites
 
 1. Python 3 Installed  
-   If Python is not installed, download it from:  
    If Python is not installed, download it from: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-2. dzdo Access  
+2. dzdo/sudo Access  
    The agent user must have dzdo privileges to run the script with elevated permissions.
 
 3. Linux Environment  
